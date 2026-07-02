@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solomon Julius Peter - Software Developer | Cybersecurity | Cloud Consultant</title>
+    <meta name="description" content="Professional Portfolio of Solomon Julius Peter - Software Developer, Cybersecurity Engineer, Cloud Consultant & IT Solutions Architect with 5+ years of experience.">
+    <meta name="keywords" content="software developer, cybersecurity engineer, cloud consultant, IT solutions, portfolio, web development, Nigeria, Solomon Julius Peter">
+    <meta name="author" content="Solomon Julius Peter">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Solomon Julius Peter - Portfolio">
+    <meta property="og:description" content="Software Developer | Cybersecurity Engineer | Cloud Consultant | IT Solutions Architect">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://wakatix.com/Portfolio">
+    <meta property="og:image" content="images/image2.jpeg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Solomon Julius Peter - Portfolio">
+    <meta name="twitter:description" content="Software Developer | Cybersecurity Engineer | Cloud Consultant | IT Solutions Architect">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#x1F4BB;</text></svg>">
+</head>
+<body>
+
+    <!-- ==================== LOADING SCREEN ==================== -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="spinner"></div>
+            <span class="loader-text">Loading...</span>
+        </div>
+    </div>
+
+    <!-- ==================== CUSTOM CURSOR ==================== -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- ==================== SCROLL PROGRESS ==================== -->
+    <div id="scroll-progress"></div>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-text">&lt;SJP /&gt;</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <div class="ms-3 d-flex align-items-center">
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero-section">
+        <div id="particles-bg"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Solomon Julius Peter</h1>
+                    <div class="hero-typing-wrapper">
+                        <span class="hero-typing-prefix">I'm a </span>
+                        <span id="typed-text"></span>
+                    </div>
+                    <p class="hero-description">
+                        Software Developer | Cybersecurity Engineer | Cloud Consultant | IT Solutions Architect
+                        with 5+ years of experience delivering innovative technology solutions.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary btn-lg me-3">
+                            <i class="fas fa-folder-open me-2"></i>View Projects
+                        </a>
+                        <a href="#" class="btn btn-outline-primary btn-lg me-3" id="download-resume">
+                            <i class="fas fa-download me-2"></i>Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-envelope me-2"></i>Contact Me
+                        </a>
+                    </div>
+                    <div class="hero-social mt-4">
+                        <a href="https://github.com/DanjictHub" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/solomon-julius-peter-892a8b208" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://x.com/realtechy01" target="_blank" class="social-icon" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/realtecchy" target="_blank" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-glow"></div>
+                        <img src="images/image2.jpeg" alt="Solomon Julius Peter" class="hero-image img-fluid">
+                        <div class="hero-badge badge-1">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Cybersecurity</span>
+                        </div>
+                        <div class="hero-badge badge-2">
+                            <i class="fas fa-code"></i>
+                            <span>Developer</span>
+                        </div>
+                        <div class="hero-badge badge-3">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-subtitle">About Me</span>
+                <h2 class="section-title">Who I Am</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="about-image-wrapper">
+                        <img src="images/image1.jpeg" alt="About Solomon" class="about-image img-fluid rounded-4">
+                        <div class="about-exp-badge">
+                            <span class="exp-number">5+</span>
+                            <span class="exp-text">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="about-content">
+                        <h3>Software Developer & Cybersecurity Engineer</h3>
+                        <p>Experienced professional with over five years of expertise spanning IT, operations, administrative coordination, and organizational support. Skilled in staff onboarding, training facilitation, documentation, data management, and process improvement, with a strong ability to leverage digital technologies to enhance efficiency and streamline workflows.</p>
+                        <p>Adept at collaborating across teams, managing day-to-day operations, and delivering practical solutions that support business objectives. Passionate about technology, continuous improvement, and helping organizations achieve sustainable growth through innovation and effective operational practices.</p>
+                        <div class="row mt-4">
+                            <div class="col-sm-6">
+                                <ul class="about-info list-unstyled">
+                                    <li><strong><i class="fas fa-user me-2"></i>Name:</strong> Solomon Julius Peter</li>
+                                    <li><strong><i class="fas fa-envelope me-2"></i>Email:</strong> solomonjulius96@gmail.com</li>
+                                    <li><strong><i class="fas fa-phone me-2"></i>Phone:</strong> 09037592284</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="about-info list-unstyled">
+                                    <li><strong><i class="fas fa-map-marker-alt me-2"></i>Location:</strong> Abuja, Nigeria</li>
+                                    <li><strong><i class="fas fa-briefcase me-2"></i>Role:</strong> Full-Stack Developer</li>
+                                    <li><strong><i class="fas fa-globe me-2"></i>Freelance:</strong> Available</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary mt-3"><i class="fas fa-paper-plane me-2"></i>Let's Talk</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="row stats-row mt-5 pt-4">
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-card glass">
+                        <div class="stat-icon"><i class="fas fa-code"></i></div>
+                        <div class="stat-number"><span class="counter" data-target="50">0</span>+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="stat-card glass">
+                        <div class="stat-icon"><i class="fas fa-smile"></i></div>
+                        <div class="stat-number"><span class="counter" data-target="30">0</span>+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="stat-card glass">
+                        <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+                        <div class="stat-number"><span class="counter" data-target="15">0</span>+</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="stat-card glass">
+                        <div class="stat-icon"><i class="fas fa-layer-group"></i></div>
+                        <div class="stat-number"><span class="counter" data-target="20">0</span>+</div>
+                        <div class="stat-label">Technologies Used</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section id="skills" class="section-padding bg-dark-alt">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-subtitle">My Skills</span>
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row g-4" id="skills-container">
+                <!-- Skills will be populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-subtitle">What I Do</span>
+                <h2 class="section-title">My Services</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row g-4" id="services-container">
+                <!-- Services will be populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section id="projects" class="section-padding bg-dark-alt">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-subtitle">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="project-filters text-center mb-5" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Web">Web</button>
+                <button class="filter-btn" data-filter="Cybersecurity">Cybersecurity</button>
+                <button class="filter-btn" data-filter="Cloud">Cloud</button>
+                <button class="filter-btn" data-filter="Systems">Systems</button>
+            </div>
+            <div class="row g-4" id="projects-container">
+                <!-- Projects will be populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE TIMELINE ==================== -->
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-subtitle">My Journey</span>
+                <h2 class="section-title">Work Experience</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline" id="timeline-container">
+                <!-- Timeline will be populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS ==================== -->
+    <section id="certifications" class="section-padding bg-dark-alt">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-subtitle">Credentials</span>
+                <h2 class="section-title">Certifications</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row g-4" id="certifications-container">
+                <!-- Certifications will be populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS ==================== -->
+    <section id="testimonials" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-subtitle">What People Say</span>
+                <h2 class="section-title">Testimonials</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
+                <div class="carousel-inner" id="testimonials-container">
+                    <!-- Testimonials will be populated by JS -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="contact-info">
+                        <h3>Let's Work Together</h3>
+                        <p>Have a project in mind? Let's discuss how I can help you achieve your goals. I'm always open to new opportunities and collaborations.</p>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h5>Email</h5>
+                                <a href="mailto:solomonjulius96@gmail.com">solomonjulius96@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h5>Phone</h5>
+                                <a href="tel:+2349037592284">+234 903 759 2284</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h5>Location</h5>
+                                <span>Abuja, Nigeria</span>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/2349037592284" target="_blank" class="btn btn-success mt-3">
+                            <i class="fab fa-whatsapp me-2"></i>Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="contact-form-wrapper glass">
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Your Message" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100" id="form-submit-btn">
+                                        <i class="fas fa-paper-plane me-2"></i>Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="form-message" class="mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="footer-brand">&lt;SJP /&gt;</h4>
+                        <p>Software Developer | Cybersecurity Engineer | Cloud Consultant | IT Solutions Architect. Building innovative solutions for a digital world.</p>
+                        <div class="footer-social">
+                            <a href="https://github.com/DanjictHub" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/solomon-julius-peter-892a8b208" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://x.com/realtechy01" target="_blank" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+                            <a href="https://www.instagram.com/realtecchy" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-widget">
+                        <h5>Quick Links</h5>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h5>Services</h5>
+                        <ul class="footer-links">
+                            <li><a href="#services">Web Development</a></li>
+                            <li><a href="#services">Cybersecurity</a></li>
+                            <li><a href="#services">Cloud Solutions</a></li>
+                            <li><a href="#services">IT Consultancy</a></li>
+                            <li><a href="#services">API Development</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h5>Contact Info</h5>
+                        <ul class="footer-contact">
+                            <li><i class="fas fa-envelope me-2"></i>solomonjulius96@gmail.com</li>
+                            <li><i class="fas fa-phone me-2"></i>+234 903 759 2284</li>
+                            <li><i class="fas fa-map-marker-alt me-2"></i>Abuja, Nigeria</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="copyright">&copy; 2025 Solomon Julius Peter. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p class="credit">Built with <i class="fas fa-heart text-danger"></i> by Solomon Julius Peter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== BACK TO TOP ==================== -->
+    <a href="#home" id="back-to-top" class="back-to-top-btn" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
